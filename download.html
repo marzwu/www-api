@@ -27,15 +27,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Zeal</a>
+      <a class="navbar-brand" href="index.html">marzAPI</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="download.html">Download</a></li>
-        <li><a href="usage.html">Usage</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li class="active"><a href="download.html">下载</a></li>
+        <li><a href="usage.html">帮助</a></li>
+        <li><a href="contact.html">联系我们</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="blog/index.html">Blog</a></li>
@@ -46,84 +46,27 @@
 
 <div class="container">
   <div class="row">
-  <h1 class="page-header">Download</h1>
+  <h1 class="page-header">下载</h1>
 
   <p class="lead">
-    There are various ways to download Zeal, depending on which operating
-    system you use, and whether you want to use pre-compiled binary, or build
-    it yourself from source code.
+    暂时只支持Windows，其他操作系统正在开发中。
   </p>
 </div>
 
 <div class="row">
   <h2 id="windows">Windows</h2>
 
-  <h3>Stable release</h3>
+  <h3>稳定版本</h3>
 
-  <p>A 32-bit version for Windows is available in form of installable package (MSI) or as a portable edition.</p>
+  <p>
+    32位Windows MSI安装包。</p>
   <p>
     <a href="https://bintray.com/artifact/download/zealdocs/releases/zeal-0.1.1-windows-x86.msi"
         class="btn btn-default" role="button">Download installer (36.8 MB)</a>
     <a href="download.html#" class="btn btn-default disabled" role="button">Download portable archive (Coming soon)</a>
   </p>
 
-  <h3>CI builds</h3>
-  <p>
-    For a real cutting edge experience you can try continuous integration builds.
-    They are automatically created on every change in our Git repository.
-    Keep in mind that CI builds are not intended for every day use and they will crash even more than stable releases.
-    <strong>You have been warned!</strong>
-  </p>
-  <p>
-    <a href="https://bintray.com/zealdocs/windows-ci" class="btn btn-default" role="button">View CI builds</a>
-  </p>
-
-</div>
-
-<div class="row">
-  <h2 id="linux">Linux</h2>
-
-  <p>
-    Prebuilt packages are provided for variety of Linux distributions.
-    Some of the packages are maintained by Zeal developers, while others are courtesy of independent contributors.
-    In case your favourite distribution is missing from the list, please, open an issue ticket in our
-    <a href="https://github.com/zealdocs/zeal-packaging/"><code>zeal-packaging</code></a> repository.
-  </p>
-
-  <h3 id="linux-arch">Arch Linux</h3>
-  <p>
-    Arch Linux users can easily obtain Zeal from AUR. There are two packages available:
-    <code>zeal</code> provides the latest stable release,
-    while <code>zeal-git</code> builds unstable source code from our Git repository.
-  </p>
-  <p>
-    <a href="https://aur.archlinux.org/packages/zeal/" class="btn btn-default" role="button">View zeal in AUR</a>
-    <a href="https://aur.archlinux.org/packages/zeal-git/" class="btn btn-default" role="button">View zeal-git in AUR</a>
-  </p>
-
-  <h3 id="linux-opensuse">openSUSE</h3>
-  <p>Zeal is part of the official openSUSE software repositories.</p>
-  <a href="http://software.opensuse.org/download.html?project=devel%3Atools&package=zeal"
-     class="btn btn-default" role="button">View openSUSE package</a>
-
-  <h3 id="linux-ubuntu">Ubuntu</h3>
-  <p>Ubuntu users can enjoy our own PPA repository. Run the following commands to add the PPA to your system:</p>
-  <pre>$ sudo add-apt-repository ppa:zeal-developers/ppa<br>$ sudo apt-get update<br>$ sudo apt-get install zeal</pre>
-  <div class="alert alert-warning" role="alert">
-    <strong>Attention non-Unity users!</strong>
-    Due to a <a href="https://bugs.launchpad.net/ubuntu/+source/appmenu-qt5/+bug/1307619">bug</a> in
-    <code>appmenu-qt5</code> package Zeal main menu might be missing on desktop environments other than Unity.
-    A simple solution is to remove <code>appmenu-qt5</code> package from your system.
-  </div>
-  <p><a href="https://launchpad.net/~zeal-developers/+archive/ubuntu/ppa" class="btn btn-default" role="button">View PPA page</a></p>
-
-</div>
-
-<div class="row">
-  <h2 id="source">Source code</h2>
-  <p>Complete source code is available on GitHub. To build Zeal follow instruction in the <code>README.md</code> file.</p>
-  <p><a href="https://github.com/zealdocs/zeal" class="btn btn-default" role="button">Go to GitHub</a></p>
-</div>
+  
 
 </div>
 <footer class="page-footer" role="contentinfo">
